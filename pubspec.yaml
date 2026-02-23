@@ -1,0 +1,29 @@
+name: demonmonk
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  audioplayers: ^6.5.1
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  google_fonts: ^8.0.2
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/jump.mp3
+    - assets/sounds/demon_roar.mp3
+    - assets/sounds/splash.mp3

@@ -1,0 +1,34 @@
+name: demon_monks_game
+description: Classic Demons and Monks river crossing puzzle game with animations.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/jump.mp3
+    - assets/sounds/demon_roar.mp3
+    - assets/sounds/splash.mp3
+
+  fonts:
+    - family: GameFont
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
